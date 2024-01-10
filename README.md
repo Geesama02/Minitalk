@@ -23,30 +23,29 @@ The Minitalk project revolves around creating a communication system between two
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/minitalk.git
+         git clone https://github.com/your-username/minitalk.git
 Navigate to the project directory:
 
-    cd minitalk
+         cd minitalk
 Compile the source code:
 
-    make
+          make
 Usage
 Start the server:
 
-    ./server
+          ./server
 Start the client:
 
-    ./client [server_pid] [message]
+          ./client [server_pid] [message]
 Replace [server_pid] with the PID of the server process, and [message] with the message you want to send.
 
 Examples
 Start the server:
 
-    ./server
+          ./server
 In another terminal, start the client:
 
-    ./client [server_pid] Hello, Minitalk!
+          ./client [server_pid] Hello, Minitalk!
 Replace [server_pid] with the actual PID of the server process.
 
 The server should display the received message.
@@ -59,6 +58,6 @@ Also with the bonus the server is able to handle unicode messages too (emojis , 
 
 To use the bonus features, simply compile the bous part using "make bonus" then run the client_bonus and server_bonus executables instead of the regular ones.
 
-Contributing
+### Contributing
 
 Contributions are welcome! If you'd like to contribute to the project,
